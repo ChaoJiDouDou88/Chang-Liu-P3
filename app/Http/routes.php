@@ -11,6 +11,27 @@
 |
 */
 
+/*
+This is For Log Vierer service
+*/
+Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
+
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/lorem-ipsum', 'LoremIpsumController@getCreate');
+Route::post('/lorem-ipsum', 'LoremIpsumController@postCreate');
+Route::get('/user-generator', 'UserGenerator@getCreate');
+Route::post('/user-generator', 'UserGenerator@postCreate');
+
+Route::get('/practice', function() {
+   $random = new Random();
+   return $random->getRandomString(16);
+
+});
+
+#Route::get('/user-generator/{id}', 'UserGenerator@getShow');
+
+#Route::get('/new', 'UserGenerator@getCreate');
+
+#Route::post('/new', 'UserGenerator@postCreate');
