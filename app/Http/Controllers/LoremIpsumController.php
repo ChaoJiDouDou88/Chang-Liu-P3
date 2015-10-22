@@ -12,28 +12,14 @@ class LoremIpsumController extends Controller {
     }
 
     /**
-    * Responds to requests to GET /books
-    */
-    public function getIndex() {
-        return "This should be the lorem-ipsum page";
-    }
-
-    /**
-     * Responds to requests to GET /books/show/{id}
-     */
-    public function getShow($id) {
-        return 'Show book: '.$id;
-    }
-
-    /**
-     * Responds to requests to GET /books/create
+     * Responds to requests to GET /lorem-ipsum
      */
     public function getCreate() {
         return view('LoremIpsum.show');
     }
 
     /**
-     * Responds to requests to POST /books/create
+     * Responds to requests to POST /lorem-ipsum
      */
     public function postCreate(Request $request) {
         $this->validate(

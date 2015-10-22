@@ -5,7 +5,6 @@ namespace p3\Http\Controllers;
 use p3\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Faker\Factory;
-#require_once '/path/to/Faker/src/autoload.php';
 
 class UserGenerator extends Controller {
 
@@ -15,14 +14,14 @@ class UserGenerator extends Controller {
 
 
     /**
-     * Responds to requests to GET /books/create
+     * Responds to requests to GET /user-generator
      */
     public function getCreate() {
         return view('UserGenerator.show');
     }
 
     /**
-     * Responds to requests to POST /books/create
+     * Responds to requests to POST /user-generator
      */
     public function postCreate(Request $request) {
       $this->validate(
