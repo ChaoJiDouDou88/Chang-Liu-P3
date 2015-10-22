@@ -23,3 +23,5 @@ Route::get('/lorem-ipsum', 'LoremIpsumController@getCreate');
 Route::post('/lorem-ipsum', 'LoremIpsumController@postCreate');
 Route::get('/user-generator', 'UserGenerator@getCreate');
 Route::post('/user-generator', 'UserGenerator@postCreate');
+Route::get('/xkcd-generator', 'XkcdGenerator@getCreate');
+Route::post('/xkcd-generator', 'XkcdGenerator@postCreate');

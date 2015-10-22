@@ -27,6 +27,10 @@
           <h2>Random User Generator</h2>
           <p>Create random user data for your applications. Like Lorem Ipsum, but for people.</p>
           <a href='/user-generator'>Generate some users...</a>
+          <br>
+          <h2>xkcd Password Generator</h2>
+          <p>Secure password generator to help keep you safer online</p>
+          <a href='/xkcd-generator'>Generate password</a>
         </div>
         <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
         <script src='//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js'></script>
