@@ -7,7 +7,7 @@
 Create a web application called Developer's Best Friend which includes a Lorem Ipsum Generator, a Random User Generator, and a xkcd password generator from p2
 
 ## Demo
-<>
+<https://youtu.be/NRCE01fIbkc>
 
 ## Details for teaching team
 *No login required.
